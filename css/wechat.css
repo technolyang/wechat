@@ -1,0 +1,42 @@
+@charset "utf-8";
+/* CSS Document */
+body,h1,h2,h3,h4,ul,li,img,p,dl,dt,dd,ol{ margin:0px; padding:0px; font-size:12px; }
+/*logo及导航条部分*/
+#top{ width:100%; height:80px; background:url(../images/bg_0.gif) repeat-x;}
+#logo{ width:963px; height:80px; margin:0 auto;}
+#logo h1{ float:left;}
+#logo #nav{ width:440px; height:80px; float:right; padding-left:20px;}
+#logo #nav ul{ float:right; width:435px; height:80px;}
+#logo #nav ul li{ list-style:none; float:left; padding:10px; margin-top:20px;}
+#logo #nav ul .lang{ padding:0px;}
+#logo #nav ul li a{ color:#CCCCCC;  font-size:14px; text-decoration:none; }
+#logo #nav ul li a:hover { color:#5f9d18;  font-size:14px; text-decoration:none; }
+/*logo及导航条部分*/
+
+/*content内容部分*/
+#middle{ width:100%; background:url(../images/bg_2.gif) repeat; float:left; padding-bottom:40px;}
+#middle #content{ width:963px; margin:0 auto; margin-top:40px;}
+#middle #content #title{ background:url(../images/titlebg.gif); float:left; width:903px; border:#CCCCCC 1px solid; padding:30px; }
+#middle #content #title h2{ font-size:36px;color:#76a70a; font-weight:bold;}
+#middle #content #content_1{ width:823px; background:#FFFFFF; float:left; border:#CCCCCC 1px solid; border-top:none; padding:70px 70px 0px 70px; line-height:16px;}
+#middle #content #content_2{ width:800px; margin-bottom:80px; padding-left:25px;}
+#middle #content #content_2 a{ color:#5f9d18; text-decoration:none;}
+#middle #content #content_2 a{ color:#76a70a; text-decoration:none;}
+#middle #content #content_1 h4{ font-size:12px; color:#333333; padding-bottom:20px;}
+#middle #content #content_1 p{ margin-bottom:20px; color:#666666; line-height:28px; }
+#middle #content #content_1 #content_2 ol li{ margin-bottom:20px;font-weight:bold; color:#333333; list-style-position:inside; }
+/*content内容部分*/
+
+
+/*底部内容*/
+#footer{ width:100%; height:293px; background:url(../images/bg_1.gif) repeat-x; float:left;}
+#footer #chaining{ width:963px; margin:0 auto; padding:30px 0px 0px; height:237px;}
+#footer dl { width:222px; float:left; background:url(../images/line.gif) repeat-y; height:173px; padding-left:15px; margin-bottom:60px;}
+#footer dl dt{ color:#FFFFFF; font-weight:bold; margin-bottom:20px;}
+#footer dl dd { line-height:24px;}
+#footer dl dd a{color:#CCCCCC; text-decoration:none;}
+#footer dl dd a:hover{ color:#76a70a; text-decoration:none; }
+#footer dl dd a img{ border:none;margin-right: 8px;}
+#footer #copyright{ width:963px; float:left; text-align:center; padding-top:10px; height:16px;}
+/*底部内容*/
+
